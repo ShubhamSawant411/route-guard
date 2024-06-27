@@ -21,8 +21,10 @@ export class AppComponent implements OnInit {
         else if (event['url'] == '/register') {
           this.isLogin = false;
         } 
+        else if (event['url'] == '/') {
+          this.isLogin = false;
+        } 
         else {
-          // console.log("NU")
           this.isLogin = true;
         }
       }
