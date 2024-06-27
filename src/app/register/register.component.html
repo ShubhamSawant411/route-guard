@@ -1,0 +1,9 @@
+<div>
+    <form  (ngSubmit)="onSubmit(username.value,password.value)">
+        <h3>Register</h3>
+        <input type="text" placeholder="username" autocomplete="username" #username>
+        <input type="password" placeholder="password" autocomplete="current-password" #password>
+        <button type="submit">Register</button>
+    </form>
+    <p>{{registrationStatus}}</p>
+</div>

@@ -1,0 +1,46 @@
+div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    height: fit-content;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 241, 241);
+    border-radius: 25px;
+    box-shadow: 0px 4px 8px rgb(180, 180, 180);
+}
+form input{
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    border: none;
+    border-bottom: 1px solid blueviolet;
+    background: rgba(243, 241, 241);
+    outline: none;
+}
+form button{
+    background: linear-gradient(rgb(53, 0, 66),rgb(243, 150, 255));
+    border-radius: 25px;
+    font-size: 1.2rem;
+    border: none;
+    color: antiquewhite;
+    padding: 10px 20px;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    transition: all 0.5;
+}
+
+form button:hover {
+    box-shadow: 0px 2px 10px black;
+}
+
+form h3{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 2rem;
+}
